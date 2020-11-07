@@ -1,5 +1,11 @@
-1.admin-cilent、cilent文件夹运行前请先安装依赖：npm install
+运行时请先安装项目依赖 npm install
 
-2.serve为服务器端  admin-cilent为后台管理端  cilent为客户端
+该项目主要围绕“车位共享”的理念，模拟用户对物业停车场进行预订停车收费，实现小区业主“空闲车位变现”
 
-3.运行过程中可能需要设置数据库索引：set global innodb_large_prefix = on;
+admin-cilent为后台管理系统 client为客户端 server是用koa2开发的项目的服务端 项目采用前后端完全分离的模式
+
+运行过程中可能需要设置数据库索引：set global innodb_large_prefix = on;
+
+本app有较完整的预订消费流程，停车时长判断，代码可读性高，不过也需要优化与提高
+
+可以加本人的qq：839214860 提出意见和建议 大家一起共同学习进步
